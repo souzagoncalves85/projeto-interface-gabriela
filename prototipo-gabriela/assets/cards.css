@@ -1,0 +1,16 @@
+.carousel-inner {
+    display: flex;
+}
+  
+.carousel-item {
+    width: 100%;
+}
+  
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+  
+.card {
+    margin: 10px;
+}
+  

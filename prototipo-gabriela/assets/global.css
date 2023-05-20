@@ -1,0 +1,95 @@
+body{
+    background-image: url('../img/login-imagem.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 100Vh;
+}
+
+.login-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form {
+    background-color: #ffffff;
+    
+    padding: 20px;
+    border-radius: 5px;
+    border-top: 100px;
+
+    min-width: 400px;
+    min-height: 450px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-section {
+    padding: 50px 0;
+  }
+  
+.login-form {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.login-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.form-group {
+    margin-bottom: 20px;
+}
+  
+label {
+    font-weight: bold;
+}
+  
+.signup-link {
+    margin-top: 20px;
+    text-align: center;
+}
+  
+.signup-link a {
+    color: #007bff;
+    text-decoration: none;
+    
+}
+
+.signup-link a:hover{
+    color: #002aff;
+    text-decoration: underline;
+    transition: color .3s ease-in-out ;
+}
+
+  
+.login-title {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+  
+
+
+.login-form .form-group {
+    margin-bottom: 10px; /* Adicione o espaçamento desejado, por exemplo, 10px */
+}
+
+.login-form .text-center {
+    margin-top: 20px; /* Adicione um espaçamento acima do botão, por exemplo, 20px */
+}
+
+.login-form .btn-primary {
+    width: 100%;
+}
+
+  
+

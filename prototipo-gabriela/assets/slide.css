@@ -1,0 +1,50 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+.container-fluid{
+    padding: 0;
+    
+}
+
+.carousel-no-padding {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.carousel-no-padding .carousel-inner {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.carousel-no-padding .carousel-item {
+    height: 90vh; /* Defina a altura desejada, 75vh cobre 3/4 da tela */
+    background-position: center;
+    background-size: cover;
+}
+
+/* #mainSlider .carousel-inner #mainSlider .carousel-item{
+    height: 40%;
+} */
+
+ #mainSlider .carrosel-caption{
+    top: 30%;
+} 
+
+p{
+    border-radius: 10px;
+}
+  
+
+.small-footer {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
