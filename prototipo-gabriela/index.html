@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JPM viagens</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/slide.css">
+    <link rel="stylesheet" href="assets/cards.css">
+   
+    <!-- bootsrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- ajax css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+ 
+</head>
+<body>
+  <header>
+      <section>
+        <!-- navbar bootsrap -->
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="#home">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <label class="text-white">✈️ JPM</label> 
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#Sobre">sobre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#Ofertas">Ofertas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#Contatos">Contatos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white text-right" href="html/login.html">login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </section>
+
+      <section>
+        <!-- carrosel bootstrap -->
+        <div class="container-fluid">
+          <div id="mainSlider" class="carousel slide carousel-no-padding" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#mainSlider" data-bs-slide-to="1"></li>
+              <li data-bs-target="#mainSlider" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/slide-image1.jpg" alt="Slide 1" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                  <p class="text-bg-secondary">Viajar é o melhor investimento em si mesmo. Amplie sua perspectiva, desafie seus limites e deixe-se inspirar pelas maravilhas que o mundo tem a oferecer. A aventura começa aqui!.</p>
+                 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide-image2.jpg" alt="Slide 2" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="text-bg-secondary">Seja um viajante, não um turista. Mergulhe nas cores, cheiros e sons de cada destino. Conecte-se com as pessoas, mergulhe na cultura e volte para casa com um coração cheio de histórias inspiradoras</p>
+                 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide-image3.jpg" alt="Slide 3" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                  <p class="text-bg-secondary">Descubra o mundo e liberte o aventureiro dentro de você. Abrace a emoção de explorar novos lugares, conhecer culturas diferentes e criar memórias que durarão para sempre.</p>
+                 
+                </div>
+              </div>
+            </div>
+            <a href="#mainSlider" class="carousel-control-prev" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">prev</span>
+            </a>
+            <a href="#mainSlider" class="carousel-control-next" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        
+            
+      </section>
+  </header>
+  <main>
+    <!-- sobre  -->
+    <section id="Sobre" class="bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="display-4">Sobre a JVM</h2>
+            <p class="lead">Nossa empresa de viagens é líder no setor, oferecendo experiências inesquecíveis para os viajantes. Com uma equipe apaixonada e especializada, nos dedicamos a proporcionar as melhores opções de destinos, serviços e atividades para nossos clientes.</p>
+            <p>Nosso compromisso com a qualidade é evidente em todos os aspectos do nosso trabalho. Selecionamos cuidadosamente nossos parceiros e fornecedores para garantir que ofereçam os mais altos padrões de conforto, segurança e atendimento. Trabalhamos com as melhores companhias aéreas, hotéis e operadoras locais para garantir uma experiência de viagem excepcional.</p>
+          </div>
+          <div class="col-lg-6">
+            <img src="img/image-sobre.jpg" alt="Imagem da Empresa" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <!-- cards -->
+      <div class="container" id="Ofertas">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="card">
+              
+              <div class="card-body">
+                <h2 class="card-title">Descubra as maravilhas da natureza</h2>
+                <p class="card-text">Embarque em uma aventura emocionante e explore paisagens deslumbrantes, trilhas incríveis e vivencie momentos inesquecíveis.</p>
+                <a href="#" class="btn btn-primary">Saiba Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="card">
+              
+              <div class="card-body">
+                <h2 class="card-title">Explore cidades encantadoras</h2>
+                <p class="card-text">Mergulhe na cultura local, conheça pessoas incríveis, experimente sabores autênticos e crie memórias que durarão para sempre.</p>
+                <a href="#" class="btn btn-primary">Saiba Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title">Relaxe em praias paradisíacas</h2>
+                <p class="card-text">Sinta a brisa do mar, desfrute de momentos de tranquilidade e renovação em destinos de tirar o fôlego.</p>
+                <a href="#" class="btn btn-primary">Saiba Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" id="Ofertas">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="card">
+              
+              <div class="card-body">
+                <h2 class="card-title">Viva uma aventura na selva amazônica</h2>
+                <p class="card-text">Explore a maior floresta tropical do mundo, conheça a rica biodiversidade, interaja com comunidades indígenas e desvende os segredos desse ecossistema único.</p>
+                <a href="#" class="btn btn-primary">Saiba Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="card">
+              
+              <div class="card-body">
+                <h2 class="card-title">Desbrave as ruínas antigas</h2>
+                <p class="card-text">Viaje no tempo e explore as antigas civilizações, visite sítios arqueológicos fascinantes, como Machu Picchu, Chichén Itzá e Petra, e maravilhe-se com a grandiosidade do passado.</p>
+                <a href="#" class="btn btn-primary">Saiba Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title">Viva a magia das ilhas exóticas</h2>
+                <p class="card-text">Explore ilhas paradisíacas, nade em águas cristalinas, relaxe em praias de areia branca e mergulhe em recifes de coral repletos de vida marinha.</p>
+                <a href="#" class="btn btn-primary">Saiba Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  
+    </section>
+</main>
+  
+  <footer class="bg-dark text-light small-footer" id="Contatos">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Contato</h2>
+          <p>Email: exemplo@gmail.com</p>
+          <p>Telefone: (123) 456-7890</p>
+          <p>Endereço: Rua Exemplo, 123</p>
+        </div>
+        <div class="col-md-6">
+          <h2>Redes Sociais</h2>
+          <a href="#" class="text-light me-3"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+    <!-- ajax css -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>  
+    <!-- bootsrap 5.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>
